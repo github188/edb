@@ -1,0 +1,1 @@
+erl -pa ebin -pa deps/goldrush/ebin -pa deps/lager/ebin -mnesia dir '"./data"' -noshell -s mqueue start
