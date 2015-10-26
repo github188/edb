@@ -1,0 +1,91 @@
+2015-10-19 18:50:59.069 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 20:31:36.006 [error] <0.55.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 20:32:23.615 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 20:33:54.787 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 20:34:43.709 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 21:10:29.006 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 21:26:35.474 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-19 21:32:11.381 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-20 00:07:04.521 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-20 00:08:41.662 [error] <0.53.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-20 00:09:44.319 [error] <0.53.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-20 00:09:48.726 [error] emulator Error in process <0.68.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:09:48.727 [error] emulator Error in process <0.69.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:09:48.729 [error] emulator Error in process <0.33.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:09:48.729 [error] <0.67.0> gen_server pgsql_connection_sup terminated with reason: bad argument in call to ets:new(session, [public,named_table,{keypos,1},set]) in mqueue:start/2 line 14
+2015-10-20 00:09:48.729 [error] <0.67.0> CRASH REPORT Process pgsql_connection_sup with 0 neighbours exited with reason: bad argument in call to ets:new(session, [public,named_table,{keypos,1},set]) in mqueue:start/2 line 14
+2015-10-20 00:15:15.641 [error] emulator Error in process <0.62.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:15:15.642 [error] emulator Error in process <0.63.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:15:15.643 [error] emulator Error in process <0.29.0> with exit value: {badarg,[{ets,new,[session,[public,named_table,{keypos,1},set]],[]},{mqueue,start,2,[{file,"src/mqueue.erl"},{line,14}]},{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,44}]}]}
+
+2015-10-20 00:15:15.643 [error] <0.61.0> gen_server pgsql_connection_sup terminated with reason: bad argument in call to ets:new(session, [public,named_table,{keypos,1},set]) in mqueue:start/2 line 14
+2015-10-20 00:15:15.643 [error] <0.61.0> CRASH REPORT Process pgsql_connection_sup with 0 neighbours exited with reason: bad argument in call to ets:new(session, [public,named_table,{keypos,1},set]) in mqueue:start/2 line 14
+2015-10-20 00:17:41.436 [error] emulator Error in process <0.62.0> with exit value: {{badmatch,{error,{already_started,<0.64.0>}}},[{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,45}]}]}
+
+2015-10-20 00:17:41.439 [error] emulator Error in process <0.63.0> with exit value: {{badmatch,{error,{already_started,<0.64.0>}}},[{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,45}]}]}
+
+2015-10-20 00:17:41.441 [error] emulator Error in process <0.29.0> with exit value: {{badmatch,{error,{already_started,<0.64.0>}}},[{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,45}]}]}
+
+2015-10-20 00:17:41.442 [error] <0.61.0> gen_server pgsql_connection_sup terminated with reason: no match of right hand value {error,{already_started,<0.64.0>}} in edb_listener:do_accept/1 line 45
+2015-10-20 00:17:41.442 [error] <0.61.0> CRASH REPORT Process pgsql_connection_sup with 0 neighbours exited with reason: no match of right hand value {error,{already_started,<0.64.0>}} in edb_listener:do_accept/1 line 45 in gen_server:terminate/6 line 737
+2015-10-20 00:22:41.478 [error] emulator Error in process <0.29.0> with exit value: {{badmatch,{error,{already_started,<0.62.0>}}},[{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,45}]}]}
+
+2015-10-20 00:22:41.478 [error] <0.61.0> gen_server pgsql_connection_sup terminated with reason: no match of right hand value {error,{already_started,<0.62.0>}} in edb_listener:do_accept/1 line 45
+2015-10-20 00:22:41.479 [error] <0.61.0> CRASH REPORT Process pgsql_connection_sup with 0 neighbours exited with reason: no match of right hand value {error,{already_started,<0.62.0>}} in edb_listener:do_accept/1 line 45 in gen_server:terminate/6 line 737
+2015-10-20 00:26:38.393 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:39.396 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:40.399 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:41.403 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:42.406 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:43.410 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:44.412 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:45.415 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:46.419 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:47.422 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:48.426 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:49.430 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:50.433 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:51.436 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:52.440 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:53.443 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:26:54.446 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:28:35.980 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:28:36.984 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:28:37.987 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:28:38.991 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:23.348 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:24.352 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:25.357 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:26.360 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:27.364 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:29:28.367 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:30:18.098 [error] <0.2.0>@test:conn:10 Connect Error:econnrefused
+2015-10-20 00:30:50.706 [error] emulator Error in process <0.29.0> with exit value: {{badmatch,{error,{already_started,<0.62.0>}}},[{edb_listener,do_accept,1,[{file,"src/edb_listener.erl"},{line,45}]}]}
+
+2015-10-20 00:30:50.707 [error] <0.61.0> gen_server pgsql_connection_sup terminated with reason: no match of right hand value {error,{already_started,<0.62.0>}} in edb_listener:do_accept/1 line 45
+2015-10-20 00:30:50.707 [error] <0.61.0> CRASH REPORT Process pgsql_connection_sup with 0 neighbours exited with reason: no match of right hand value {error,{already_started,<0.62.0>}} in edb_listener:do_accept/1 line 45 in gen_server:terminate/6 line 737
+2015-10-20 21:33:34.587 [error] <0.2.0>@test:conn:10 Connect Error:etimedout
+2015-10-20 21:33:55.621 [error] <0.2.0>@test:conn:10 Connect Error:etimedout
+2015-10-20 22:00:14.179 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-20 22:13:29.981 [error] <0.2.0>@test:conn:13 Connect Error:econnrefused
+2015-10-20 22:13:31.106 [error] <0.2.0>@test:conn:13 Connect Error:econnrefused
+2015-10-20 22:13:37.123 [error] <0.2.0>@test:conn:13 Connect Error:econnrefused
+2015-10-20 22:13:38.233 [error] <0.2.0>@test:conn:13 Connect Error:econnrefused
+2015-10-22 00:10:21.272 [error] <0.51.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-22 00:11:19.106 [error] <0.7.0> application_controller: bad term: './data'-noshell
+2015-10-23 23:46:12.134 [error] <0.57.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-23 23:46:12.285 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:46:12.409 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:46:12.533 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:01.749 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:01.939 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:01.975 [error] <0.57.0>@lager_handler_watcher:108 Lager fatally failed to install handler lager_console_backend into lager_event, NOT retrying: old_shell
+2015-10-23 23:47:02.148 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:17.552 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:17.673 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
+2015-10-23 23:47:17.809 [error] <0.7.0> application_controller: unterminated atom starting with './data': './data
